@@ -1,0 +1,42 @@
+In the compressed WINZIP folder you will find the MICS6 datasets for Democratic Republic of Congo. Eight SPSS data files were produced, 
+ corresponding to the units of analysis: 
+1. Households - hh.sav 
+2. Household members - hl.sav
+3. Mosquito nets in households - tn.sav
+4. Women in reproductive age (15-49 years of age) – wm.sav
+5. Birth history of ever-married Women in reproductive age (15-49 years of age) – bh.sav
+6. Men in reproductive age (15-49 years of age) – mn.sav
+7. Mothers or primary caretakers of children under the age of five – ch.sav
+8. Mothers or primary caretakers of children 5-17 – fs.sav
+
+
+The characteristics of the data such as sample size, weights, variable labels and information on recoded or imputed variables 
+ can be found within the survey archive which will be made available shortly on http://mics.unicef.org/surveys. 
+ The survey archive will also contain the questionnaires and information on the sampling and implementation of the survey.
+
+Access Conditions:
+Survey datasets are distributed at no cost for legitimate research, with the condition that we receive a description of the objectives 
+ of any research project that will be using the data prior to authorizing their distribution.
+Copies of all reports and publications based on the requested data must be sent to the following:
+
+
+1. 
+Name: Marcel NDIBA KAYUMBA
+Affiliation: Coordonateur Technique de l'Enquête MICS
+Address: Institut national de la statistique
+		 Batiment de la Fonction Publique, Aile droite, Rez-de-chaussée
+		 Kinshasa/Gombe
+         République démocratique du Congo
+email: ndibadieudonne@gmail.com
+
+2. 
+Name: Gyslaine NYOTA BUUNDA
+Affiliation: Monitoring and Evaluation Officer
+Address: Bureau de l'UNICEF à Kinshasa 
+		 Concession Immotex n°372, 
+		 Avenue Colonel Mondjiba,
+		 Kinshasa/Ngaliema
+		 République démocratique du Congo
+email: gbuunda@unicef.org
+
+

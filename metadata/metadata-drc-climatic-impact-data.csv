@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2022-11-10T10:00:09.724860
+description,Description,Climatic impacts in DRC since 2015 to date.
+format,File Format,XLSX
+download_url,Download URL,https://data.humdata.org/dataset/f576c7d6-ac24-48d4-bb52-e7ce791080a9/resource/362cd02c-c2e3-47f6-87e2-d990981ab126/download/climatic-impact-data.ods
+id,Resource ID,362cd02c-c2e3-47f6-87e2-d990981ab126
+last_modified,Updated,2023-06-07T14:39:50.097234
+metadata_modified,Metadata Updated,2023-06-07T14:40:08.103557
+microdata,Microdata,False
+dataset_id,Dataset ID,f576c7d6-ac24-48d4-bb52-e7ce791080a9
+resource_type,Resource Type,file.upload
+name,Resource Name,DRC Climatic Impact data
+mimetype,MIME Type,application/vnd.oasis.opendocument.spreadsheet
+size,Size,96.6K
