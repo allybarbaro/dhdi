@@ -1,0 +1,29 @@
+---
+title: "climatedatacleaning"
+output: html_document
+date: "2023-07-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+getwd()
+```
+
+```{r load packages, include=FALSE}
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+
+```
+
+
+```{r data, include=FALSE}
+
+climate.data.DRC <- read.csv("raw/climatic-impact-data.csv", header = TRUE, check.names = F)
+
+climate.data.sudkivu <- climate.data.DRC %>%
+  filter(admin1Label == "Sud-kivu")
+
+```
+
