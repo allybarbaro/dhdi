@@ -24,13 +24,12 @@ climate.data.DRC <- read.csv("raw/climatic-impact-data.csv", header = TRUE, chec
 
 names(climate.data.DRC)
 
-climate.data.DRC <- climate.data.DRC %>%
-  rename("Deplac\xe9es" = "IDPs",
-         "Retourn\xe9es" = "returned",
-         "Affect\xe9es" = "affected")
+which( duplicated( names(climate.data.DRC) ) )
 
 climate.data.sudkivu <- climate.data.DRC %>%
-  filter(admin1_ID == CD62)
+  filter(admin1Label == "Sud-kivu")
+
+write.csv(climate.data.sudkivu, "processed/climate.data.sudkivu.csv")
 
 ```
 
