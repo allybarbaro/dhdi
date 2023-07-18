@@ -18,7 +18,7 @@ library(lubridate)
 ```
 
 
-```{r data, include=FALSE}
+```{r climate data, include=FALSE}
 
 climate.data.DRC <- read.csv("raw/climatic-impact-data.csv", header = TRUE, check.names = F)
 
@@ -30,6 +30,12 @@ climate.data.sudkivu <- climate.data.DRC %>%
   filter(admin1Label == "Sud-kivu")
 
 write.csv(climate.data.sudkivu, "processed/climate.data.sudkivu.csv")
+
+```
+
+```{r fies data, include=FALSE}
+
+fies.data.2020.DRC <-read.csv("raw/fao_fies_data.csv", header = TRUE)
 
 ```
 
