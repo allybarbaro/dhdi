@@ -41,7 +41,7 @@ fies.data.2020.DRC <-read.csv("raw/fao_fies_data.csv", header = TRUE)
 
 ```{r MICS6 data, include=FALSE}
 
-birthhistory.DRC <-read.csv("raw/UNICEF_MICS6_birthhistory.csv", header = TRUE)
+birthhistory.DRC <-read.csv("raw/UNICEF_MICS6_birthhistory.csv", header = TRUE, check.names = F)
 
 ```
 
