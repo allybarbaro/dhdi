@@ -45,3 +45,15 @@ birthhistory.DRC <-read.csv("raw/UNICEF_MICS6_birthhistory.csv", header = TRUE, 
 
 ```
 
+```{r Maldata, include=FALSE}
+
+sudkivu.malnutrition.may2023 <- read.csv("raw/sudkivu_malnutrition_data_may2023.csv", header = TRUE, check.names = F)
+
+```
+
+```{r humneedsdata, include=FALSE}
+
+sudkivu.humanitarianneeds.nutrition <- read.csv("raw/Sudkivu_humanitarianneeds_nutritiononly_dhx_data.csv", header = TRUE, check.names = F)
+
+```
+
