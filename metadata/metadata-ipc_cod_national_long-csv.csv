@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2023-04-27T04:46:33.447798
+description,Description,All IPC national data in long form with HXL tags
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/1dfc7346-adc8-4dfc-b2ac-dc18549e9068/resource/af94258b-8233-4388-9d6e-ad45bc66c1d6/download/ipc_cod_national_long.csv
+id,Resource ID,af94258b-8233-4388-9d6e-ad45bc66c1d6
+last_modified,Updated,2023-05-26T08:17:53.245199
+metadata_modified,Metadata Updated,2023-05-26T08:18:02.865030
+microdata,Microdata,FALSE
+dataset_id,Dataset ID,1dfc7346-adc8-4dfc-b2ac-dc18549e9068
+resource_type,Resource Type,file.upload
+name,Resource Name,ipc_cod_national_long.csv
+mimetype,MIME Type,text/csv
+size,Size,6.4K

@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2023-04-27T04:46:33.447805
+description,Description,All IPC area data in long form with HXL tags
+format,File Format,CSV
+download_url,Download URL,https://data.humdata.org/dataset/1dfc7346-adc8-4dfc-b2ac-dc18549e9068/resource/6e16329e-2390-4e25-a7b8-9d810b3b08d5/download/ipc_cod_area_long.csv
+id,Resource ID,6e16329e-2390-4e25-a7b8-9d810b3b08d5
+last_modified,Updated,2023-05-26T08:17:53.614168
+metadata_modified,Metadata Updated,2023-05-26T08:18:06.763375
+microdata,Microdata,False
+dataset_id,Dataset ID,1dfc7346-adc8-4dfc-b2ac-dc18549e9068
+resource_type,Resource Type,file.upload
+name,Resource Name,ipc_cod_area_long.csv
+mimetype,MIME Type,text/csv
+size,Size,1.0M
