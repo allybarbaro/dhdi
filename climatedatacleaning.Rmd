@@ -85,5 +85,21 @@ acute.food.insecurity.2020 <-acute.food.insecurity.recent %>%
 abovethree.acute.food.insecrity.2020 <-acute.food.insecurity.2020 %>%
   filter(`Phase` == "3+")
 
+acute.food.insecurity.2021 <-acute.food.insecurity.recent %>%
+  filter(`Date of analysis` > "2020-12-31" & `Date of analysis` < "2022-01-01") %>%
+  filter(`Level 1` == "Sud Kivu") %>%
+  filter(`Validity period` == "current")
+  
+abovethree.acute.food.insecrity.2021 <-acute.food.insecurity.2021 %>%
+  filter(`Phase` == "3+")
+
+acute.food.insecurity.2022 <-acute.food.insecurity.recent %>%
+  filter(`Date of analysis` > "2021-12-31" & `Date of analysis` < "2023-01-01") %>%
+  filter(`Level 1` == "Sud Kivu") %>%
+  filter(`Validity period` == "current")
+  
+abovethree.acute.food.insecrity.2022 <-acute.food.insecurity.2022 %>%
+  filter(`Phase` == "3+")
+
 ```
 
