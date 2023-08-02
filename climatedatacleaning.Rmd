@@ -57,3 +57,33 @@ sudkivu.humanitarianneeds.nutrition <- read.csv("raw/Sudkivu_humanitarianneeds_n
 
 ```
 
+```{r food insecurity data, include=FALSE}
+
+acute.food.insecurity <- read.csv("raw/ipc_subnat_acute_food_insecurity.csv", header = TRUE, check.names = F)
+
+acute.food.insecurity$`Date of analysis` <- mdy(acute.food.insecurity$`Date of analysis`)
+
+class(acute.food.insecurity$`Date of analysis`)
+
+acute.food.insecurity.recent <- acute.food.insecurity %>%
+  select(`Date of analysis`,`Level 1`, `Area`, `Validity period`, `Phase`, `Number`, `Percentage`) %>%
+  filter(`Date of analysis` > "2018-12-31" & `Date of analysis` < "2024-01-01")
+
+acute.food.insecurity.2019 <-acute.food.insecurity.recent %>%
+  filter(`Date of analysis` > "2018-12-31" & `Date of analysis` < "2020-01-01") %>%
+  filter(`Level 1` == "Sud-Kivu") %>%
+  filter(`Validity period` == "current")
+  
+abovethree.acute.food.insecrity.2019 <-acute.food.insecurity.2019 %>%
+  filter(`Phase` == "3+")
+
+acute.food.insecurity.2020 <-acute.food.insecurity.recent %>%
+  filter(`Date of analysis` > "2019-12-31" & `Date of analysis` < "2021-01-01") %>%
+  filter(`Level 1` == "Sud Kivu") %>%
+  filter(`Validity period` == "current")
+  
+abovethree.acute.food.insecrity.2020 <-acute.food.insecurity.2020 %>%
+  filter(`Phase` == "3+")
+
+```
+
