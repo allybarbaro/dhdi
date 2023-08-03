@@ -101,5 +101,33 @@ acute.food.insecurity.2022 <-acute.food.insecurity.recent %>%
 abovethree.acute.food.insecrity.2022 <-acute.food.insecurity.2022 %>%
   filter(`Phase` == "3+")
 
+acute.food.insecurity.2023 <-acute.food.insecurity.recent %>%
+  filter(`Date of analysis` > "2022-12-31" & `Date of analysis` < "2023-12-31") %>%
+  filter(`Level 1` == "Sud Kivu") %>%
+  filter(`Validity period` == "projected")
+  
+abovethree.acute.food.insecrity.2023 <-acute.food.insecurity.2023 %>%
+  filter(`Phase` == "3+")
+
+write.csv(abovethree.acute.food.insecrity.2019, "processed/abovethree.acute.food.insecurity.2019.csv")
+
+write.csv(abovethree.acute.food.insecrity.2020, "processed/abovethree.acute.food.insecurity.2020.csv")
+
+write.csv(abovethree.acute.food.insecrity.2021, "processed/abovethree.acute.food.insecurity.2021.csv")
+
+write.csv(abovethree.acute.food.insecrity.2022, "processed/abovethree.acute.food.insecurity.2022.csv")
+
+write.csv(abovethree.acute.food.insecrity.2023, "processed/abovethree.acute.food.insecurity.2023.csv")
+
+write.csv(acute.food.insecurity.2019, "processed/acute.food.insecurity.2019.csv")
+
+write.csv(acute.food.insecurity.2020, "processed/acute.food.insecurity.2020.csv")
+
+write.csv(acute.food.insecurity.2021, "processed/acute.food.insecurity.2021.csv")
+
+write.csv(acute.food.insecurity.2022, "processed/acute.food.insecurity.2022.csv")
+
+write.csv(acute.food.insecurity.2023, "processed/acute.food.insecurity.2023.csv")
+
 ```
 
